@@ -38,7 +38,7 @@ const topBanner = (props) => {
 							{props.downloadBtn2 === true ? <a className="btn btn-primary" href="#get-in-touch">Download e-guide</a> : ""}
 							{props.readTime !== null && props.readTime !== "" && props.readTime !== undefined ? <div class="rdtime">Read Time<br />{props.readTime}</div> : ""}
 
-							{props.superbowl === true ?<a className="bt-big px-4 lt_btn" href="javascript:void(0)" onClick={()=>props.checkVideo1()}>{props.btnTxt || "Tickets"}</a>:null}
+							
 						</div>
 					</div>
 					<div className={typeof props.equalWidth !== "undefined" && props.equalWidth ? "col-sm-12 col-md-12 col-lg-6 col-xl-6" : "col-sm-12 col-md-12 col-lg-6 col-xl-5"}>
